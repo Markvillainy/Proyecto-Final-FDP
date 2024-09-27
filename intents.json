@@ -1,0 +1,51 @@
+{
+    "intents": [
+        
+        {
+            "tag": "saludo",
+            "patterns": ["Hola", "Buenos días", "Necesito ayuda"],
+            "responses": ["¡Hola!, estudiante TecMilenio, ¿cómo puedo servirte?", "¡Buenos días!, estudiante TecMilenio, ¿qué necesitas?"]
+        },
+        
+        {
+            "tag": "informes",
+            "patterns": ["Necesito informes", "Dame información de inscripción", "quiero información de inscripción"],
+            "responses":["¡Claro que sí!. Dime ¿qué necesitas saber referente a inscripciones?", "¡Por supuesto!, ¿podrías especificar qué información requieres para inscribirte?"]
+
+        },
+
+        
+        {
+            "tag": "fechas",
+            "patterns": ["Quiero saber fechas de inscripción", "Fechas de inscripcion", "dame fechas de inscripcion", "quiero fechas de inscripcion", "proprcioname fechas de inscripción"],
+            "responses": ["Las inscripciones en la Universidad Tecmilenio suelen abrirse varias veces al año, dependiendo del programa. Para el Campus San Nicolás, los periodos de inscripción se dividen generalmente en: Preparatoria: Inscripciones abiertas antes del inicio de cada semestre (enero y agosto). Licenciaturas: Inscripciones para los tetramestres de enero, mayo y septiembre. Maestrías: Inscripciones para iniciar en enero, mayo y septiembre."]
+        },
+
+        
+        {
+            "tag": "Sesiones",
+            "patterns": ["Quiero una sesiòn informativa", "como puedo tener una sesión informativa"],
+            "responses": ["Puedes agendar una sesión informativa para resolver dudas sobre inscripciones mediante: \n1. Sala Virtual: Ingresa a la sala de videoconferencias para atención al instante. \nHorario de atención: \nLunes a viernes: 9:00 a 18:30 horas TCM \nSábados: 9:00 a 13:00 horas TCM"]
+
+        },
+
+        
+        {
+            "tag": "Carreras",
+            "patterns": ["Quiero estudiar una carrera", "que carreras tienen disponibles", "cuantas carreras tienen", "que carreras puedo estudiar", "¿Qué carreras puedo estudiar?"],
+            "responses": ["Entre nuestras carreras universitarias, se encuentran: \nMaestría en Mercadotecnia Digital \nMaestría en Finanzas \nMaestría en Dirección del Capital Humano \nMáster en Automatización y Robótica \nEspecialidad en Finanzas \nEspecialidad en Recursos Humanos \nMaestría en Administración de Negocios Área Logística \nMaestría en Administración de Negocios Área Mercadotecnia \nIngenienría en Desarrollo de Software \nLicenciatura en Diseño Gráfico y Animación \nLicenciatura en administración de Empresas \nLicenciatura en Mercadotecnia"]
+        },
+
+        
+        {
+            "tag": "Contacto",
+            "patterns": ["como puedo contactarlos", "cual es su info de contacto", "¿Cuál es su información de contacto?"],
+            "responses": ["Puedes ponerte en contacto con la Universidad Tecmilenio a través de los siguientes medios: \n1. Teléfono del Campus San Nicolás: \n(81)8305-3200 \n2. Correo Electrónico de admisiones: \nadmisionesc@servicios.tecmilenio.mx \n3. Sala Virtual para resolver dudas en tiempo real: \nLunes a viernes: 9:00 a 18:30 TCM \n Sábados: 9:00 a 13:00 TCM"]
+
+        }
+    ]
+    
+    
+    
+
+}
